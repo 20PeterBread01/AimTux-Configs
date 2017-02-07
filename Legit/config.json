@@ -85,7 +85,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.9100000262260437,
+               "FOV" : 0.92000001668930054,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -109,7 +109,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.5350000262260437
+               "Value" : 0.51999998092651367
             },
             "Friendly" : false,
             "IgnoreJump" : {
@@ -121,7 +121,7 @@
             "RCS" : {
                "AlwaysOn" : true,
                "AmountX" : 1.4199999570846558,
-               "AmountY" : 1.2999999523162842,
+               "AmountY" : 1.3500000238418579,
                "Enabled" : true
             },
             "Silent" : false,
@@ -129,7 +129,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.93600004911422729,
+               "Amount" : 0.93000000715255737,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2747,7 +2747,7 @@
       "enabled" : true
    },
    "ShowSpectators" : {
-      "enabled" : false
+      "enabled" : true
    },
    "Skinchanger" : {
       "Gloves" : {
@@ -3177,10 +3177,10 @@
          }
       },
       "bodyColor" : {
-         "a" : 0.85427135229110718,
-         "b" : 9.9999181202292675e-07,
-         "g" : 9.9999999747524271e-07,
-         "r" : 9.9998999303352321e-07
+         "a" : 0.82412058115005493,
+         "b" : 0.025125447660684586,
+         "g" : 0.025125622749328613,
+         "r" : 0.025125371292233467
       },
       "fontColor" : {
          "a" : 1,
@@ -3191,8 +3191,8 @@
       "mainColor" : {
          "a" : 1,
          "b" : 0,
-         "g" : 0.55778896808624268,
-         "r" : 0.1569657176733017
+         "g" : 0.38544479012489319,
+         "r" : 0.79899495840072632
       }
    },
    "View" : {
