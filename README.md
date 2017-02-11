@@ -1,6 +1,6 @@
 ## My Current Legit and Rage Configs for AimTux.
 
-*_Rage Config is being improved due to new AA's, I will upload it as soon as possible._*
+*_Rage Config isn't the same as mine because currently I got some extra Anti Aims that will problably be added to AimTux_*
 
 _______________________________________________________________________________________________________________________________
 
