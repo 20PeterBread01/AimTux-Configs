@@ -85,8 +85,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.92000001668930054,
-               "RealDistance" : false
+               "FOV" : 0.92400002479553223,
+               "RealDistance" : true
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -109,7 +109,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.51999998092651367
+               "Value" : 0.51599997282028198
             },
             "Friendly" : false,
             "IgnoreJump" : {
@@ -126,10 +126,10 @@
             },
             "Silent" : false,
             "SmokeCheck" : {
-               "Enabled" : true
+               "Enabled" : false
             },
             "Smooth" : {
-               "Amount" : 0.93000000715255737,
+               "Amount" : 0.92599999904632568,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -1008,10 +1008,10 @@
             },
             "Silent" : false,
             "SmokeCheck" : {
-               "Enabled" : true
+               "Enabled" : false
             },
             "Smooth" : {
-               "Amount" : 0.92500001192092896,
+               "Amount" : 0.93000000715255737,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2250,12 +2250,12 @@
       "enabled" : false
    },
    "AutoStrafe" : {
-      "enabled" : false,
+      "enabled" : true,
       "silent" : true,
       "type" : 0
    },
    "Autoblock" : {
-      "enabled" : true,
+      "enabled" : false,
       "key" : 32
    },
    "BHop" : {
@@ -2360,7 +2360,7 @@
          "enemies" : true,
          "fishes" : false,
          "hostages" : false,
-         "legit" : true,
+         "legit" : false,
          "localplayer" : false,
          "smoke_check" : false,
          "throwables" : false,
@@ -2627,7 +2627,11 @@
    },
    "FakeLag" : {
       "enabled" : false,
-      "value" : 5
+      "value" : 7
+   },
+   "JumpThrow" : {
+      "enabled" : false,
+      "key" : "t"
    },
    "NameStealer" : {
       "enabled" : false,
@@ -2766,7 +2770,7 @@
          "WEAPON_AK47" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "WEAPON_AK47",
-            "PaintKit" : 600,
+            "PaintKit" : 180,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.004999999888241291
@@ -2782,7 +2786,7 @@
          "WEAPON_AWP" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "WEAPON_AWP",
-            "PaintKit" : 475,
+            "PaintKit" : 446,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.004999999888241291
@@ -2869,7 +2873,7 @@
          },
          "WEAPON_KNIFE" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_BAYONET",
             "PaintKit" : 453,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -3146,7 +3150,7 @@
       "key" : 82
    },
    "ThirdPerson" : {
-      "distance" : 30,
+      "distance" : 135,
       "enabled" : false
    },
    "Triggerbot" : {
