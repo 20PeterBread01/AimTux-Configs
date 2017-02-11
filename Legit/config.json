@@ -86,7 +86,7 @@
             "AutoAim" : {
                "Enabled" : true,
                "FOV" : 0.92400002479553223,
-               "RealDistance" : true
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
