@@ -2905,34 +2905,10 @@
          "perTeam" : true
       },
       "skinsCT" : {
-         "DEFAULT" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 562,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
          "ct_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "slick_gloves",
+            "ItemDefinitionIndex" : "motorcycle_gloves",
             "PaintKit" : 10006,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
-         "knife" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "knife_karambit",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "knife_karambit" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 561,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
@@ -2948,97 +2924,7 @@
          "motorcycle_gloves" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 10024,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
-         "slick_gloves" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 10016,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
-         "specialist_gloves" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 10033,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
-         "sporty_gloves" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 10018,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
-         "studded_bloodhound_gloves" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 10006,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
-         "t_gloves" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "studded_bloodhound_gloves",
-            "PaintKit" : 10006,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
-         "usp_silencer" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 504,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         }
-      },
-      "skinsT" : {
-         "DEFAULT" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 624,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
-         "knife_m9_bayonet" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 562,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
-         "knife_t" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "knife_m9_bayonet",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "leather_handwraps" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 10009,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.00050000002374872565
-         },
-         "motorcycle_gloves" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 10028,
+            "PaintKit" : 10026,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
@@ -3077,8 +2963,618 @@
          },
          "t_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "motorcycle_gloves",
+            "ItemDefinitionIndex" : "studded_bloodhound_gloves",
             "PaintKit" : 10006,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_ak47" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 524,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_aug" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 455,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_awp" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 344,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_bizon" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 542,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_cz75a" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 543,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_deagle" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 37,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_elite" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 625,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_famas" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 604,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_fiveseven" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 427,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_hkp2000" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 635,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "weapon_knife_m9_bayonet",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
+         },
+         "weapon_knife_bayonet" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_butterfly" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_flip" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_gut" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_karambit" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_m9_bayonet" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 416,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_push" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_survival_bowie" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_tactical" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_m249" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 401,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_m4a1" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 309,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_m4a1_silencer" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 360,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_mag7" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 499,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_mp7" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 387,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_mp9" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 609,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_negev" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 610,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_nova" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 158,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_p250" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 404,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_p90" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 359,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_revolver" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 595,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_scar20" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 312,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_ssg08" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 624,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_ump45" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 556,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_usp_silencer" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 504,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_xm1014" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 616,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         }
+      },
+      "skinsT" : {
+         "leather_handwraps" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10009,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "motorcycle_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10024,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "slick_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10013,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "specialist_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10033,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "sporty_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10037,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "studded_bloodhound_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10006,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "t_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "sporty_gloves",
+            "PaintKit" : 10006,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_ak47" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 180,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_awp" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 279,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_bizon" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 542,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_cz75a" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 350,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_deagle" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 37,
+            "Seed" : 520,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_elite" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 625,
+            "Seed" : 520,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_g3sg1" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 493,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_galilar" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 494,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_glock" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 353,
+            "Seed" : 520,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_bayonet" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_butterfly" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_flip" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_gut" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_karambit" : {
+            "CustomName" : "AimTux Best Tux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 522,
+            "Seed" : 520,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_m9_bayonet" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_push" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_survival_bowie" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_knife_t" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "weapon_knife_karambit",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
+         },
+         "weapon_knife_tactical" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 417,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_m249" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 401,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_mac10" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 433,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_mp7" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 481,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_negev" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 514,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_nova" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 286,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_p250" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 404,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_p90" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 359,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_revolver" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 12,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_sawedoff" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 638,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_sg556" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 519,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_ssg08" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 554,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_tec9" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 520,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_ump45" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 556,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "weapon_xm1014" : {
+            "CustomName" : "TestTux",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 616,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
