@@ -13,7 +13,7 @@
          "enabled" : false
       },
       "weapons" : {
-         "ITEM_INVALID" : {
+         "DEFAULT" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -22,7 +22,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.94999998807907104,
+               "FOV" : 0.92699998617172241,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -42,75 +42,6 @@
                "Bones" : [ false, false, false, false, false, false ],
                "Enabled" : false,
                "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : true,
-               "AmountX" : 0,
-               "AmountY" : 0,
-               "Enabled" : true
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : false
-            },
-            "Smooth" : {
-               "Amount" : 0.89999997615814209,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 8
-         },
-         "WEAPON_AK47" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 0.92750000953674316,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 5
             },
             "Enabled" : true,
             "ErrorMargin" : {
@@ -138,7 +69,7 @@
             },
             "Silent" : false,
             "SmokeCheck" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "Smooth" : {
                "Amount" : 0.92000001668930054,
@@ -151,7 +82,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_AUG" : {
+         "weapon_aug" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -220,7 +151,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_AWP" : {
+         "weapon_awp" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -253,7 +184,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : false,
-               "Value" : 0.56999999284744263
+               "Value" : 0.20000000298023224
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -269,9 +200,9 @@
                "enabled" : false
             },
             "RCS" : {
-               "AlwaysOn" : false,
-               "AmountX" : 0,
-               "AmountY" : 0,
+               "AlwaysOn" : true,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : false
             },
             "Silent" : false,
@@ -289,7 +220,7 @@
             },
             "TargetBone" : 6
          },
-         "WEAPON_BIZON" : {
+         "weapon_bizon" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -339,8 +270,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.7000000476837158,
-               "AmountY" : 1.2999999523162842,
+               "AmountX" : 1.6000000238418579,
+               "AmountY" : 1.7999999523162842,
                "Enabled" : true
             },
             "Silent" : false,
@@ -358,7 +289,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_CZ75A" : {
+         "weapon_cz75a" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -367,7 +298,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1.0499999523162842,
+               "FOV" : 1,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -391,7 +322,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
+               "Value" : 0.05000000074505806
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -408,8 +339,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.7000000476837158,
-               "AmountY" : 1.7000000476837158,
+               "AmountX" : 1.3999999761581421,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
             "Silent" : false,
@@ -417,7 +348,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.89999997615814209,
+               "Amount" : 0.9100000262260437,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -427,7 +358,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_DEAGLE" : {
+         "weapon_deagle" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -436,7 +367,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1.0199999809265137,
+               "FOV" : 1,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -460,7 +391,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : false,
-               "Value" : 0.56999999284744263
+               "Value" : 0.20000000298023224
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -476,9 +407,9 @@
                "enabled" : false
             },
             "RCS" : {
-               "AlwaysOn" : false,
-               "AmountX" : 0,
-               "AmountY" : 0,
+               "AlwaysOn" : true,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : false
             },
             "Silent" : false,
@@ -486,17 +417,17 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.019999999552965164,
+               "Amount" : 0.10000000149011612,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : false,
-                  "Multiplier" : 0.14000000059604645
+                  "Multiplier" : 0.0060000000521540642
                },
                "Type" : 0
             },
             "TargetBone" : 8
          },
-         "WEAPON_ELITE" : {
+         "weapon_elite" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -509,7 +440,7 @@
                "RealDistance" : false
             },
             "AutoPistol" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "AutoScope" : {
                "Enabled" : false
@@ -565,7 +496,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_FAMAS" : {
+         "weapon_famas" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -574,7 +505,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.93000000715255737,
+               "FOV" : 0.92000001668930054,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -598,7 +529,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
+               "Value" : 0.40000000596046448
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -615,147 +546,9 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.5,
-               "AmountY" : 1.2999999523162842,
+               "AmountX" : 1.2000000476837158,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.95100003480911255,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.22900001704692841
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 8
-         },
-         "WEAPON_FIVESEVEN" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 0.93999999761581421,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : true,
-               "AmountX" : 1.6000000238418579,
-               "AmountY" : 1.6000000238418579,
-               "Enabled" : true
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.91100007295608521,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 8
-         },
-         "WEAPON_G3SG1" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 1.2999999523162842,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.068999998271465302
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : false,
-               "AmountX" : 1,
-               "AmountY" : 1,
-               "Enabled" : false
             },
             "Silent" : false,
             "SmokeCheck" : {
@@ -770,78 +563,9 @@
                },
                "Type" : 0
             },
-            "TargetBone" : 6
-         },
-         "WEAPON_GALILAR" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 0.93000000715255737,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : true,
-               "AmountX" : 1.5,
-               "AmountY" : 1.2999999523162842,
-               "Enabled" : true
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.89999997615814209,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
             "TargetBone" : 8
          },
-         "WEAPON_GLOCK" : {
+         "weapon_fiveseven" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -850,7 +574,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1.0099999904632568,
+               "FOV" : 1,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -900,7 +624,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.65000003576278687,
+               "Amount" : 0.9100000262260437,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -910,7 +634,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_HKP2000" : {
+         "weapon_g3sg1" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -919,7 +643,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1.1000000238418579,
+               "FOV" : 1.2999999523162842,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -943,7 +667,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
+               "Value" : 0.05000000074505806
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -960,8 +684,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.6000000238418579,
-               "AmountY" : 1.7000000476837158,
+               "AmountX" : 1,
+               "AmountY" : 1,
                "Enabled" : true
             },
             "Silent" : false,
@@ -969,7 +693,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.89999997615814209,
+               "Amount" : 0.93999999761581421,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -977,147 +701,9 @@
                },
                "Type" : 0
             },
-            "TargetBone" : 8
+            "TargetBone" : 6
          },
-         "WEAPON_M249" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 0.94999998807907104,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : true,
-               "AmountX" : 1.5,
-               "AmountY" : 1.6000000238418579,
-               "Enabled" : true
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.89999997615814209,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 8
-         },
-         "WEAPON_M4A1" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 0.92000001668930054,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 5
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.40000000596046448
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : true,
-               "AmountX" : 1.2999999523162842,
-               "AmountY" : 1.2999999523162842,
-               "Enabled" : true
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.93000000715255737,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 8
-         },
-         "WEAPON_M4A1_SILENCER" : {
+         "weapon_galilar" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -1167,8 +753,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.5,
-               "AmountY" : 1.2999999523162842,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
             "Silent" : false,
@@ -1186,7 +772,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_MAC10" : {
+         "weapon_glock" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -1195,421 +781,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.94999998807907104,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : true,
-               "AmountX" : 1.3999999761581421,
-               "AmountY" : 1.5,
-               "Enabled" : true
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.90000003576278687,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 8
-         },
-         "WEAPON_MAG7" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 1,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : false,
-               "AmountX" : 0,
-               "AmountY" : 0,
-               "Enabled" : false
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.7160000205039978,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 8
-         },
-         "WEAPON_MP7" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 0.94999998807907104,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : true,
-               "AmountX" : 1.6000000238418579,
-               "AmountY" : 1.3999999761581421,
-               "Enabled" : true
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.89999997615814209,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 8
-         },
-         "WEAPON_MP9" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 0.94999998807907104,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : true,
-               "AmountX" : 1.6000000238418579,
-               "AmountY" : 1.6499999761581421,
-               "Enabled" : true
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.89999997615814209,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 7
-         },
-         "WEAPON_NEGEV" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 0.94999998807907104,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : true,
-               "AmountX" : 1.5,
-               "AmountY" : 1.5,
-               "Enabled" : true
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.89999997615814209,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 8
-         },
-         "WEAPON_NOVA" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 1.1499999761581421,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : false,
-               "AmountX" : 0,
-               "AmountY" : 0,
-               "Enabled" : false
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : true
-            },
-            "Smooth" : {
-               "Amount" : 0.54400002956390381,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 8
-         },
-         "WEAPON_P250" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 1.0199999809265137,
+               "FOV" : 1.0099999904632568,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1669,7 +841,766 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_P90" : {
+         "weapon_hkp2000" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 1.1000000238418579,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.56999999284744263
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 2,
+               "AmountY" : 2,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.89999997615814209,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_m249" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 0.94999998807907104,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.56999999284744263
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 1.5,
+               "AmountY" : 1.6000000238418579,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.89999997615814209,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_m4a1" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 0.92000001668930054,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.40000000596046448
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.93000000715255737,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_m4a1_silencer" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 0.92000001668930054,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.40000000596046448
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.93000000715255737,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_mac10" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 0.93000000715255737,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.25
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 1.3999999761581421,
+               "AmountY" : 1.75,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.9100000262260437,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_mag7" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 0.92699998617172241,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : false,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.20000000298023224
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.92000001668930054,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_mp7" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 0.93500000238418579,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.25
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 1.6000000238418579,
+               "AmountY" : 1.7000000476837158,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.9100000262260437,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_mp9" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 0.92400002479553223,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.25
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 1.3999999761581421,
+               "AmountY" : 1.7999999523162842,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.92000001668930054,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_negev" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 0.94999998807907104,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.56999999284744263
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 1.5,
+               "AmountY" : 1.7000000476837158,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.89999997615814209,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_nova" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 0.92699998617172241,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : false,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.20000000298023224
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.92000001668930054,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_p250" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 1.0199999809265137,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.10000000149011612
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 2,
+               "AmountY" : 2,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.81999999284744263,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_p90" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -1720,7 +1651,7 @@
             "RCS" : {
                "AlwaysOn" : true,
                "AmountX" : 1.3999999761581421,
-               "AmountY" : 1.5,
+               "AmountY" : 1.6000000238418579,
                "Enabled" : true
             },
             "Silent" : false,
@@ -1738,7 +1669,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_REVOLVER" : {
+         "weapon_revolver" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -1771,7 +1702,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.10999999940395355
+               "Value" : 0.029999999329447746
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1788,16 +1719,16 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 0,
-               "AmountY" : 0,
-               "Enabled" : true
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
+               "Enabled" : false
             },
             "Silent" : false,
             "SmokeCheck" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.91500002145767212,
+               "Amount" : 0.9100000262260437,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -1807,7 +1738,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_SAWEDOFF" : {
+         "weapon_sawedoff" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -1816,7 +1747,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1,
+               "FOV" : 0.92699998617172241,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1837,10 +1768,10 @@
                "Enabled" : false,
                "Value" : 10
             },
-            "Enabled" : true,
+            "Enabled" : false,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
+               "Value" : 0.20000000298023224
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1856,17 +1787,17 @@
                "enabled" : false
             },
             "RCS" : {
-               "AlwaysOn" : false,
-               "AmountX" : 0,
-               "AmountY" : 0,
-               "Enabled" : false
+               "AlwaysOn" : true,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
+               "Enabled" : true
             },
             "Silent" : false,
             "SmokeCheck" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.7160000205039978,
+               "Amount" : 0.92000001668930054,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -1876,7 +1807,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_SCAR20" : {
+         "weapon_scar20" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -1909,7 +1840,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.068999998271465302
+               "Value" : 0.05000000074505806
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1925,17 +1856,17 @@
                "enabled" : false
             },
             "RCS" : {
-               "AlwaysOn" : false,
+               "AlwaysOn" : true,
                "AmountX" : 1,
                "AmountY" : 1,
-               "Enabled" : false
+               "Enabled" : true
             },
             "Silent" : false,
             "SmokeCheck" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.93000000715255737,
+               "Amount" : 0.93999999761581421,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -1945,7 +1876,7 @@
             },
             "TargetBone" : 6
          },
-         "WEAPON_SG556" : {
+         "weapon_sg556" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -1978,7 +1909,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
+               "Value" : 0.5
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1995,8 +1926,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.7000000476837158,
-               "AmountY" : 1.2999999523162842,
+               "AmountX" : 1.2000000476837158,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
             "Silent" : false,
@@ -2004,7 +1935,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.89999997615814209,
+               "Amount" : 0.93000000715255737,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2014,7 +1945,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_SSG08" : {
+         "weapon_ssg08" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -2046,7 +1977,7 @@
             },
             "Enabled" : true,
             "ErrorMargin" : {
-               "Enabled" : true,
+               "Enabled" : false,
                "Value" : 0.0020000000949949026
             },
             "FlashCheck" : {
@@ -2063,9 +1994,9 @@
                "enabled" : false
             },
             "RCS" : {
-               "AlwaysOn" : false,
-               "AmountX" : 0,
-               "AmountY" : 0,
+               "AlwaysOn" : true,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : false
             },
             "Silent" : false,
@@ -2073,17 +2004,17 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.092000007629394531,
+               "Amount" : 0.10000000149011612,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
-                  "Multiplier" : 0.010000000707805157
+                  "Multiplier" : 0.05000000074505806
                },
                "Type" : 0
             },
-            "TargetBone" : 6
+            "TargetBone" : 7
          },
-         "WEAPON_TASER" : {
+         "weapon_taser" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -2092,7 +2023,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1,
+               "FOV" : 0.92699998617172241,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2113,79 +2044,10 @@
                "Enabled" : false,
                "Value" : 10
             },
-            "Enabled" : true,
+            "Enabled" : false,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
-            },
-            "FlashCheck" : {
-               "Enabled" : false
-            },
-            "Friendly" : false,
-            "IgnoreJump" : {
-               "Enabled" : false
-            },
-            "NoShoot" : {
-               "Enabled" : false
-            },
-            "Prediction" : {
-               "enabled" : false
-            },
-            "RCS" : {
-               "AlwaysOn" : false,
-               "AmountX" : 0,
-               "AmountY" : 0,
-               "Enabled" : false
-            },
-            "Silent" : false,
-            "SmokeCheck" : {
-               "Enabled" : false
-            },
-            "Smooth" : {
-               "Amount" : 0.89999997615814209,
-               "Enabled" : true,
-               "Salting" : {
-                  "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
-               },
-               "Type" : 0
-            },
-            "TargetBone" : 6
-         },
-         "WEAPON_TEC9" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
-            "AimStep" : {
-               "Amount" : 25,
-               "Enabled" : false
-            },
-            "AutoAim" : {
-               "Enabled" : true,
-               "FOV" : 1.0299999713897705,
-               "RealDistance" : false
-            },
-            "AutoPistol" : {
-               "Enabled" : true
-            },
-            "AutoScope" : {
-               "Enabled" : false
-            },
-            "AutoShoot" : {
-               "Enabled" : false
-            },
-            "AutoSlow" : {
-               "enabled" : false,
-               "minDamage" : 0
-            },
-            "AutoWall" : {
-               "Bones" : [ false, false, false, false, false, false ],
-               "Enabled" : false,
-               "Value" : 10
-            },
-            "Enabled" : true,
-            "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.10000000149011612
+               "Value" : 0.20000000298023224
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -2202,16 +2064,16 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
             "Silent" : false,
             "SmokeCheck" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.75,
+               "Amount" : 0.92000001668930054,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2221,7 +2083,76 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_UMP45" : {
+         "weapon_tec9" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 1.0099999904632568,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.029999999329447746
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 0,
+               "AmountY" : 2,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.79000002145767212,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
+         "weapon_ump45" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -2254,7 +2185,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
+               "Value" : 0.5
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -2271,8 +2202,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.7000000476837158,
-               "AmountY" : 1.3999999761581421,
+               "AmountX" : 1.3999999761581421,
+               "AmountY" : 1.7000000476837158,
                "Enabled" : true
             },
             "Silent" : false,
@@ -2280,7 +2211,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.89999997615814209,
+               "Amount" : 0.9100000262260437,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2290,7 +2221,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_USP_SILENCER" : {
+         "weapon_usp_silencer" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -2299,7 +2230,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1.0750000476837158,
+               "FOV" : 1.0700000524520874,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2323,7 +2254,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.10000000149011612
+               "Value" : 0.070000000298023224
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -2346,10 +2277,10 @@
             },
             "Silent" : false,
             "SmokeCheck" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.88999998569488525,
+               "Amount" : 0.90499997138977051,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2359,7 +2290,7 @@
             },
             "TargetBone" : 8
          },
-         "WEAPON_XM1014" : {
+         "weapon_xm1014" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
             "AimStep" : {
@@ -2368,7 +2299,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1,
+               "FOV" : 0.92699998617172241,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2389,10 +2320,10 @@
                "Enabled" : false,
                "Value" : 10
             },
-            "Enabled" : true,
+            "Enabled" : false,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
+               "Value" : 0.20000000298023224
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -2408,17 +2339,17 @@
                "enabled" : false
             },
             "RCS" : {
-               "AlwaysOn" : false,
-               "AmountX" : 0,
-               "AmountY" : 0,
-               "Enabled" : false
+               "AlwaysOn" : true,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
+               "Enabled" : true
             },
             "Silent" : false,
             "SmokeCheck" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.7160000205039978,
+               "Amount" : 0.92000001668930054,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2870,7 +2801,7 @@
    },
    "Radar" : {
       "InGame" : {
-         "enabled" : false
+         "enabled" : true
       },
       "allies" : false,
       "ally_color" : {
@@ -2910,7 +2841,7 @@
          "r" : 0.25098034739494324
       },
       "enabled" : false,
-      "enemies" : false,
+      "enemies" : true,
       "enemy_color" : {
          "a" : 1,
          "b" : 0,
@@ -2963,373 +2894,194 @@
       "enabled" : true
    },
    "ShowSpectators" : {
-      "enabled" : true
+      "enabled" : false
    },
-   "Skinchanger" : {
-      "Gloves" : {
+   "SkinChanger" : {
+      "Models" : {
          "enabled" : true
       },
-      "enabled" : true,
-      "skins" : {
-         "" : {
+      "Skins" : {
+         "enabled" : true,
+         "perTeam" : true
+      },
+      "skinsCT" : {
+         "DEFAULT" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 562,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "ct_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "slick_gloves",
+            "PaintKit" : 10006,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "knife" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "knife_karambit",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : -1
          },
-         "WEAPON_AK47" : {
+         "knife_karambit" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_AK47",
-            "PaintKit" : 180,
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 561,
             "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
+            "Wear" : 0.00050000002374872565
          },
-         "WEAPON_AUG" : {
+         "leather_handwraps" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_AUG",
-            "PaintKit" : 455,
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10009,
             "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
+            "Wear" : 0.00050000002374872565
          },
-         "WEAPON_AWP" : {
+         "motorcycle_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_AWP",
-            "PaintKit" : 446,
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10024,
             "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
-         },
-         "WEAPON_BIZON" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_BIZON",
-            "PaintKit" : 542,
-            "Seed" : 420,
-            "StatTrak" : 1337,
             "Wear" : 0.00050000002374872565
          },
-         "WEAPON_CZ75A" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_CZ75A",
-            "PaintKit" : 622,
-            "Seed" : 420,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_DEAGLE" : {
+         "slick_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_DEAGLE",
-            "PaintKit" : 12,
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10016,
             "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
+            "Wear" : 0.00050000002374872565
          },
-         "WEAPON_ELITE" : {
+         "specialist_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_ELITE",
-            "PaintKit" : 625,
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10033,
             "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
-         },
-         "WEAPON_FAMAS" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_FAMAS",
-            "PaintKit" : 626,
-            "Seed" : -1,
-            "StatTrak" : 1337,
             "Wear" : 0.00050000002374872565
          },
-         "WEAPON_FIVESEVEN" : {
+         "sporty_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_FIVESEVEN",
-            "PaintKit" : 44,
-            "Seed" : 278,
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10018,
+            "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
-         },
-         "WEAPON_G3SG1" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_G3SG1",
-            "PaintKit" : 511,
-            "Seed" : 0,
-            "StatTrak" : 1337,
             "Wear" : 0.00050000002374872565
          },
-         "WEAPON_GALILAR" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_GALILAR",
-            "PaintKit" : 478,
-            "Seed" : 420,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_GLOCK" : {
-            "CustomName" : "Gay Pride lul",
-            "ItemDefinitionIndex" : "WEAPON_GLOCK",
-            "PaintKit" : 38,
-            "Seed" : 961,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_HKP2000" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_HKP2000",
-            "PaintKit" : 71,
-            "Seed" : 420,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_KNIFE" : {
+         "studded_bloodhound_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_KNIFE_M9_BAYONET",
-            "PaintKit" : 577,
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10006,
             "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
+            "Wear" : 0.00050000002374872565
          },
-         "WEAPON_KNIFE_BAYONET" : {
+         "t_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "",
-            "PaintKit" : -1,
+            "ItemDefinitionIndex" : "studded_bloodhound_gloves",
+            "PaintKit" : 10006,
             "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : -1
+            "Wear" : 0.00050000002374872565
          },
-         "WEAPON_KNIFE_BUTTERFLY" : {
+         "usp_silencer" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "WEAPON_KNIFE_FALCHION" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "WEAPON_KNIFE_FLIP" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "WEAPON_KNIFE_GUT" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "WEAPON_KNIFE_KARAMBIT" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "WEAPON_KNIFE_M9_BAYONET" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "WEAPON_KNIFE_PUSH" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "WEAPON_KNIFE_SURVIVAL_BOWIE" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "WEAPON_KNIFE_T" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_KNIFE_M9_BAYONET",
-            "PaintKit" : 577,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
-         },
-         "WEAPON_KNIFE_TACTICAL" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "",
-            "PaintKit" : -1,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : -1
-         },
-         "WEAPON_M4A1" : {
-            "CustomName" : "Space Warrior",
-            "ItemDefinitionIndex" : "WEAPON_M4A1",
-            "PaintKit" : 588,
-            "Seed" : 2,
-            "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
-         },
-         "WEAPON_M4A1_SILENCER" : {
-            "CustomName" : "The Beast",
-            "ItemDefinitionIndex" : "WEAPON_M4A1_SILENCER",
-            "PaintKit" : 430,
-            "Seed" : 2,
-            "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
-         },
-         "WEAPON_MAC10" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_MAC10",
-            "PaintKit" : 188,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_MAG7" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_MAG7",
-            "PaintKit" : 385,
-            "Seed" : -1,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_MP7" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_MP7",
-            "PaintKit" : 102,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_MP9" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_MP9",
-            "PaintKit" : 39,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_NEGEV" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_NEGEV",
-            "PaintKit" : 197,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_NOVA" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_NOVA",
-            "PaintKit" : 537,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_P250" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_P250",
-            "PaintKit" : 388,
-            "Seed" : 420,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_P90" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_P90",
-            "PaintKit" : 636,
-            "Seed" : -1,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_SAWEDOFF" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_SAWEDOFF",
-            "PaintKit" : 638,
-            "Seed" : -1,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_SCAR20" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_SCAR20",
-            "PaintKit" : 232,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_SG556" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_SG556",
-            "PaintKit" : 247,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_SSG08" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_SSG08",
-            "PaintKit" : 624,
-            "Seed" : -1,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_TEC9" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_TEC9",
-            "PaintKit" : 179,
-            "Seed" : 420,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_UMP45" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_UMP45",
-            "PaintKit" : 556,
-            "Seed" : 420,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "WEAPON_USP_SILENCER" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_USP_SILENCER",
+            "ItemDefinitionIndex" : "DEFAULT",
             "PaintKit" : 504,
             "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
+            "Wear" : 0.00050000002374872565
+         }
+      },
+      "skinsT" : {
+         "DEFAULT" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 624,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
          },
-         "WEAPON_XM1014" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_XM1014",
-            "PaintKit" : 169,
-            "Seed" : 0,
-            "StatTrak" : 1337,
+         "knife_m9_bayonet" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 562,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "knife_t" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "knife_m9_bayonet",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
+         },
+         "leather_handwraps" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10009,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "motorcycle_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10028,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "slick_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10013,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "specialist_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10033,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "sporty_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10018,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.00050000002374872565
+         },
+         "studded_bloodhound_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "DEFAULT",
+            "PaintKit" : 10006,
+            "Seed" : -1,
+            "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
          },
          "t_gloves" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "motorcycle_gloves",
-            "PaintKit" : 10026,
+            "PaintKit" : 10006,
             "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
+            "Wear" : 0.00050000002374872565
          }
       }
    },
@@ -3339,7 +3091,7 @@
    "Spammer" : {
       "KillSpammer" : {
          "enabled" : false,
-         "messages" : [ "$nick just got owned by AimTux", "$nick watches anime" ],
+         "messages" : [ "$nick watches anime", "$nick is gay", "$nick is a nigger" ],
          "say_team" : false
       },
       "NormalSpammer" : {
@@ -3396,7 +3148,7 @@
       "bodyColor" : {
          "a" : 0.51758795976638794,
          "b" : 0.060301482677459717,
-         "g" : 0.01768069714307785,
+         "g" : 0.01772286556661129,
          "r" : 0
       },
       "fontColor" : {
