@@ -82,6 +82,75 @@
             },
             "TargetBone" : 8
          },
+         "weapon_ak47" : {
+            "AimKey" : "MOUSE3",
+            "AimKeyOnly" : false,
+            "AimStep" : {
+               "Amount" : 25,
+               "Enabled" : false
+            },
+            "AutoAim" : {
+               "Enabled" : true,
+               "FOV" : 0.92699998617172241,
+               "RealDistance" : false
+            },
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : false
+            },
+            "AutoShoot" : {
+               "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
+            "AutoWall" : {
+               "Bones" : [ false, false, false, false, false, false ],
+               "Enabled" : false,
+               "Value" : 10
+            },
+            "Enabled" : true,
+            "ErrorMargin" : {
+               "Enabled" : true,
+               "Value" : 0.15000000596046448
+            },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
+            "Friendly" : false,
+            "IgnoreJump" : {
+               "Enabled" : false
+            },
+            "NoShoot" : {
+               "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
+            },
+            "RCS" : {
+               "AlwaysOn" : true,
+               "AmountX" : 1.1000000238418579,
+               "AmountY" : 1.8999999761581421,
+               "Enabled" : true
+            },
+            "Silent" : false,
+            "SmokeCheck" : {
+               "Enabled" : true
+            },
+            "Smooth" : {
+               "Amount" : 0.92000001668930054,
+               "Enabled" : true,
+               "Salting" : {
+                  "Enabled" : true,
+                  "Multiplier" : 0.14000000059604645
+               },
+               "Type" : 0
+            },
+            "TargetBone" : 8
+         },
          "weapon_aug" : {
             "AimKey" : "MOUSE3",
             "AimKeyOnly" : false,
@@ -115,7 +184,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
+               "Value" : 0.20000000298023224
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -132,8 +201,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.5,
-               "AmountY" : 1.2999999523162842,
+               "AmountX" : 1.2000000476837158,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
             "Silent" : false,
@@ -141,7 +210,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.89999997615814209,
+               "Amount" : 0.9100000262260437,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -229,7 +298,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.98000001907348633,
+               "FOV" : 0.93500000238418579,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -253,7 +322,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
+               "Value" : 0.11999999731779099
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -270,8 +339,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.6000000238418579,
-               "AmountY" : 1.7999999523162842,
+               "AmountX" : 1.3700000047683716,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
             "Silent" : false,
@@ -279,7 +348,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.89999997615814209,
+               "Amount" : 0.92000001668930054,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -505,7 +574,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.92000001668930054,
+               "FOV" : 0.92500001192092896,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -529,7 +598,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.40000000596046448
+               "Value" : 0.25
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -712,7 +781,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.92000001668930054,
+               "FOV" : 0.93000000715255737,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -736,7 +805,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.40000000596046448
+               "Value" : 0.15000000596046448
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -753,7 +822,7 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.1000000238418579,
+               "AmountX" : 1.2000000476837158,
                "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
@@ -762,7 +831,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.93000000715255737,
+               "Amount" : 0.92000001668930054,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -1057,7 +1126,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.92000001668930054,
+               "FOV" : 0.92299997806549072,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1081,7 +1150,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.34000000357627869
+               "Value" : 0.20000000298023224
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1098,7 +1167,7 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.1000000238418579,
+               "AmountX" : 1.3500000238418579,
                "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
@@ -1150,7 +1219,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.25
+               "Value" : 0.10000000149011612
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1264,7 +1333,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.93500000238418579,
+               "FOV" : 0.93999999761581421,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1288,7 +1357,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.25
+               "Value" : 0.15999999642372131
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1305,8 +1374,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.6000000238418579,
-               "AmountY" : 1.7000000476837158,
+               "AmountX" : 1.2999999523162842,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
             "Silent" : false,
@@ -1333,7 +1402,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.92400002479553223,
+               "FOV" : 0.92699998617172241,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1357,7 +1426,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.25
+               "Value" : 0.10000000149011612
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1374,8 +1443,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.3999999761581421,
-               "AmountY" : 1.7999999523162842,
+               "AmountX" : 1.2000000476837158,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
             "Silent" : false,
@@ -1383,7 +1452,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.92000001668930054,
+               "Amount" : 0.9100000262260437,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -1590,7 +1659,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.81999999284744263,
+               "Amount" : 0.80000001192092896,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -1609,7 +1678,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.94999998807907104,
+               "FOV" : 0.93500000238418579,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1633,7 +1702,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.56999999284744263
+               "Value" : 0.20000000298023224
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1650,8 +1719,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.3999999761581421,
-               "AmountY" : 1.6000000238418579,
+               "AmountX" : 1.2000000476837158,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
             "Silent" : false,
@@ -1659,7 +1728,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.89999997615814209,
+               "Amount" : 0.9100000262260437,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -1885,7 +1954,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.92000001668930054,
+               "FOV" : 0.93000000715255737,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1909,7 +1978,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.5
+               "Value" : 0.20000000298023224
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1926,7 +1995,7 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.2000000476837158,
+               "AmountX" : 1.4500000476837158,
                "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
@@ -2004,7 +2073,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.10000000149011612,
+               "Amount" : 0.20000000298023224,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2115,8 +2184,8 @@
             },
             "Enabled" : true,
             "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.029999999329447746
+               "Enabled" : false,
+               "Value" : 0
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -2133,7 +2202,7 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 0,
+               "AmountX" : 2,
                "AmountY" : 2,
                "Enabled" : true
             },
@@ -2161,7 +2230,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.93000000715255737,
+               "FOV" : 0.92599999904632568,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2185,7 +2254,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.5
+               "Value" : 0.25
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -2202,8 +2271,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.3999999761581421,
-               "AmountY" : 1.7000000476837158,
+               "AmountX" : 1.2999999523162842,
+               "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
             "Silent" : false,
@@ -2211,7 +2280,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.9100000262260437,
+               "Amount" : 0.92000001668930054,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2254,7 +2323,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.070000000298023224
+               "Value" : 0.035000000149011612
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -2392,7 +2461,7 @@
       "enabled" : false
    },
    "AutoStrafe" : {
-      "enabled" : true,
+      "enabled" : false,
       "silent" : true,
       "type" : 0
    },
@@ -2487,12 +2556,13 @@
       },
       "FOVCrosshair" : {
          "color" : {
-            "a" : 0.16078431904315948,
+            "a" : 0.14070351421833038,
             "b" : 0.96470588445663452,
-            "g" : 0.26299163699150085,
+            "g" : 0.26625907421112061,
             "r" : 0
          },
-         "enabled" : false
+         "enabled" : false,
+         "filled" : false
       },
       "Filters" : {
          "allies" : false,
@@ -2612,7 +2682,7 @@
          "enabled" : false
       },
       "Sounds" : {
-         "enabled" : false,
+         "enabled" : true,
          "time" : 1000
       },
       "Tracers" : {
@@ -2801,7 +2871,7 @@
    },
    "Radar" : {
       "InGame" : {
-         "enabled" : true
+         "enabled" : false
       },
       "allies" : false,
       "ally_color" : {
@@ -2841,7 +2911,7 @@
          "r" : 0.25098034739494324
       },
       "enabled" : false,
-      "enemies" : true,
+      "enemies" : false,
       "enemy_color" : {
          "a" : 1,
          "b" : 0,
@@ -3012,7 +3082,7 @@
          "weapon_deagle" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 37,
+            "PaintKit" : 1,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
@@ -3351,7 +3421,7 @@
             "CustomName" : "",
             "ItemDefinitionIndex" : "DEFAULT",
             "PaintKit" : 37,
-            "Seed" : 520,
+            "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
          },
@@ -3656,7 +3726,7 @@
       "mainColor" : {
          "a" : 1,
          "b" : 1,
-         "g" : 0.29263973236083984,
+         "g" : 0.29456949234008789,
          "r" : 0
       }
    },
