@@ -115,7 +115,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.15000000596046448
+               "Value" : 0.13400000333786011
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -132,7 +132,7 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.1000000238418579,
+               "AmountX" : 1.2999999523162842,
                "AmountY" : 1.8999999761581421,
                "Enabled" : true
             },
@@ -141,7 +141,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.92000001668930054,
+               "Amount" : 0.9179999828338623,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -436,7 +436,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1,
+               "FOV" : 1.0099999904632568,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -842,8 +842,8 @@
             "TargetBone" : 8
          },
          "weapon_glock" : {
-            "AimKey" : "MOUSE3",
-            "AimKeyOnly" : false,
+            "AimKey" : "p",
+            "AimKeyOnly" : true,
             "AimStep" : {
                "Amount" : 25,
                "Enabled" : false
@@ -874,7 +874,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.10000000149011612
+               "Value" : 0.017000000923871994
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -900,11 +900,11 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.64999997615814209,
+               "Amount" : 0.89999997615814209,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
+                  "Multiplier" : 0.079999998211860657
                },
                "Type" : 0
             },
@@ -2323,7 +2323,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.035000000149011612
+               "Value" : 0.019999999552965164
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -2349,11 +2349,11 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.90499997138977051,
+               "Amount" : 0.85000002384185791,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
-                  "Multiplier" : 0.14000000059604645
+                  "Multiplier" : 0.1080000028014183
                },
                "Type" : 0
             },
@@ -3656,8 +3656,8 @@
    },
    "Spammer" : {
       "KillSpammer" : {
-         "enabled" : false,
-         "messages" : [ "$nick watches anime", "$nick is gay", "$nick is a nigger" ],
+         "enabled" : true,
+         "messages" : [ "$nick watches anime" ],
          "say_team" : false
       },
       "NormalSpammer" : {
