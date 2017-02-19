@@ -2349,7 +2349,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.85000002384185791,
+               "Amount" : 0.84500002861022949,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2703,15 +2703,15 @@
       },
       "bomb_color" : {
          "a" : 1,
-         "b" : 1,
-         "g" : 0.99999290704727173,
-         "r" : 0.99998998641967773
+         "b" : 0,
+         "g" : 0.36309516429901123,
+         "r" : 1
       },
       "bomb_defusing_color" : {
          "a" : 1,
-         "b" : 1,
-         "g" : 0.29028749465942383,
-         "r" : 0
+         "b" : 0,
+         "g" : 0,
+         "r" : 1
       },
       "chicken_color" : {
          "a" : 1,
@@ -2840,7 +2840,7 @@
    "FakeLag" : {
       "adaptive" : false,
       "enabled" : false,
-      "value" : 7
+      "value" : 5
    },
    "JumpThrow" : {
       "enabled" : false,
@@ -3656,12 +3656,16 @@
    },
    "Spammer" : {
       "KillSpammer" : {
-         "enabled" : true,
+         "enabled" : false,
          "messages" : [ "$nick watches anime" ],
          "say_team" : false
       },
       "NormalSpammer" : {
-         "messages" : [ "Nigger Nigger Cotton Picker" ]
+         "messages" : [
+            "[mario@mario vapor-report-master]$ ./report.sh 76561198364326961     ",
+            "[INFO] MM Client Hello sent!",
+            "[INFO] Status : 11/11"
+         ]
       },
       "PositionSpammer" : {
          "show_health" : true,
@@ -3726,7 +3730,7 @@
       "mainColor" : {
          "a" : 1,
          "b" : 1,
-         "g" : 0.29456949234008789,
+         "g" : 0.29485130310058594,
          "r" : 0
       }
    },
