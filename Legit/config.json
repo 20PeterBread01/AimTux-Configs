@@ -712,7 +712,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1.2999999523162842,
+               "FOV" : 1.5,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -736,7 +736,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.029999999329447746
+               "Value" : 0.019999999552965164
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -843,7 +843,7 @@
          },
          "weapon_glock" : {
             "AimKey" : "p",
-            "AimKeyOnly" : true,
+            "AimKeyOnly" : false,
             "AimStep" : {
                "Amount" : 25,
                "Enabled" : false
@@ -1909,7 +1909,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.029999999329447746
+               "Value" : 0.019999999552965164
             },
             "FlashCheck" : {
                "Enabled" : false
