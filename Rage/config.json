@@ -2105,7 +2105,7 @@
       "Yaw" : {
          "antiResolver" : true,
          "enabled" : true,
-         "type" : 11,
+         "type" : 10,
          "type_fake" : 0
       }
    },
@@ -2133,6 +2133,9 @@
       "enabled" : true,
       "type" : 1,
       "value" : "A I M T U X E D"
+   },
+   "DisablePostProcessing" : {
+      "enabled" : false
    },
    "Dlights" : {
       "enabled" : false,
