@@ -1374,8 +1374,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 0,
-               "AmountY" : 0,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1788,8 +1788,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 0,
-               "AmountY" : 0,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -2095,7 +2095,7 @@
          "no_enemy" : false
       },
       "HeadEdge" : {
-         "distance" : 25,
+         "distance" : 30,
          "enabled" : true
       },
       "Pitch" : {
@@ -2106,7 +2106,7 @@
          "antiResolver" : true,
          "enabled" : true,
          "type" : 10,
-         "type_fake" : 0
+         "type_fake" : 1
       }
    },
    "AutoAccept" : {
@@ -2135,7 +2135,7 @@
       "value" : "A I M T U X E D"
    },
    "DisablePostProcessing" : {
-      "enabled" : false
+      "enabled" : true
    },
    "Dlights" : {
       "enabled" : false,
@@ -2224,7 +2224,7 @@
       },
       "Filters" : {
          "allies" : false,
-         "bomb" : false,
+         "bomb" : true,
          "chickens" : false,
          "defusers" : false,
          "enemies" : true,
@@ -2670,7 +2670,7 @@
    },
    "ThirdPerson" : {
       "distance" : 90,
-      "enabled" : true
+      "enabled" : false
    },
    "Triggerbot" : {
       "Delay" : {
