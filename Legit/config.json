@@ -141,7 +141,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.9179999828338623,
+               "Amount" : 0.91600000858306885,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -279,7 +279,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.063000001013278961,
+               "Amount" : 0.20000000298023224,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : false,
@@ -390,8 +390,8 @@
             },
             "Enabled" : true,
             "ErrorMargin" : {
-               "Enabled" : true,
-               "Value" : 0.05000000074505806
+               "Enabled" : false,
+               "Value" : 0.0099999997764825821
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -2023,7 +2023,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 2,
+               "FOV" : 1.8999999761581421,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -2073,7 +2073,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.20000000298023224,
+               "Amount" : 0.30000001192092896,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2081,7 +2081,7 @@
                },
                "Type" : 0
             },
-            "TargetBone" : 6
+            "TargetBone" : 7
          },
          "weapon_taser" : {
             "AimKey" : "MOUSE3",
@@ -2470,7 +2470,7 @@
       "key" : 32
    },
    "BHop" : {
-      "enabled" : true
+      "enabled" : false
    },
    "ClanTagChanger" : {
       "animation" : false,
@@ -2478,6 +2478,9 @@
       "enabled" : false,
       "type" : 0,
       "value" : ""
+   },
+   "DisablePostProcessing" : {
+      "enabled" : false
    },
    "Dlights" : {
       "enabled" : false,
@@ -2487,7 +2490,7 @@
       "Bars" : {
          "color_type" : 1,
          "enabled" : false,
-         "type" : 1
+         "type" : 4
       },
       "Boxes" : {
          "enabled" : false,
@@ -2833,7 +2836,7 @@
    "FOVChanger" : {
       "enabled" : true,
       "ignore_scope" : true,
-      "value" : 92,
+      "value" : 96,
       "viewmodel_enabled" : false,
       "viewmodel_value" : 64
    },
@@ -2951,8 +2954,8 @@
       "zoom" : 16
    },
    "Recoilcrosshair" : {
-      "enabled" : false,
-      "showOnlyWhenShooting" : false
+      "enabled" : true,
+      "showOnlyWhenShooting" : true
    },
    "Resolver" : {
       "resolve_all" : false
