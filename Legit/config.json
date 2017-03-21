@@ -82,6 +82,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_ak47" : {
@@ -93,7 +97,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.92699998617172241,
+               "FOV" : 0.92799997329711914,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -150,6 +154,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -220,6 +228,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_awp" : {
@@ -231,7 +243,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 2,
+               "FOV" : 2.2000000476837158,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -281,13 +293,17 @@
                "Enabled" : false
             },
             "Smooth" : {
-               "Amount" : 0.10999999940395355,
+               "Amount" : 0.079999998211860657,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : false,
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 6
          },
@@ -358,6 +374,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_cz75a" : {
@@ -426,6 +446,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -496,6 +520,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_elite" : {
@@ -564,6 +592,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -634,6 +666,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_fiveseven" : {
@@ -702,6 +738,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -772,6 +812,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 6
          },
          "weapon_galilar" : {
@@ -840,6 +884,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -910,6 +958,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_hkp2000" : {
@@ -978,6 +1030,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -1048,6 +1104,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_m4a1" : {
@@ -1059,7 +1119,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.92400002479553223,
+               "FOV" : 0.92799997329711914,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1083,7 +1143,7 @@
             "Enabled" : true,
             "ErrorMargin" : {
                "Enabled" : true,
-               "Value" : 0.20000000298023224
+               "Value" : 0.12999999523162842
             },
             "FlashCheck" : {
                "Enabled" : false
@@ -1117,6 +1177,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_m4a1_silencer" : {
@@ -1128,7 +1192,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.92299997806549072,
+               "FOV" : 0.92699998617172241,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -1185,6 +1249,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -1255,6 +1323,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_mag7" : {
@@ -1323,6 +1395,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -1393,6 +1469,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_mp9" : {
@@ -1461,6 +1541,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -1531,6 +1615,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_nova" : {
@@ -1599,6 +1687,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -1669,6 +1761,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_p90" : {
@@ -1737,6 +1833,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -1807,6 +1907,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_sawedoff" : {
@@ -1875,6 +1979,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -1945,6 +2053,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 6
          },
          "weapon_sg556" : {
@@ -2013,6 +2125,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -2083,6 +2199,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 6
          },
          "weapon_taser" : {
@@ -2151,6 +2271,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 5
          },
@@ -2221,6 +2345,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_ump45" : {
@@ -2289,6 +2417,10 @@
                   "Multiplier" : 0.14000000059604645
                },
                "Type" : 0
+            },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
             },
             "TargetBone" : 8
          },
@@ -2359,6 +2491,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          },
          "weapon_xm1014" : {
@@ -2428,6 +2564,10 @@
                },
                "Type" : 0
             },
+            "SpreadLimit" : {
+               "enabled" : false,
+               "value" : 0
+            },
             "TargetBone" : 8
          }
       }
@@ -2482,7 +2622,7 @@
       "value" : ""
    },
    "DisablePostProcessing" : {
-      "enabled" : true
+      "enabled" : false
    },
    "Dlights" : {
       "enabled" : false,
@@ -3147,7 +3287,7 @@
          "leather_handwraps" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 10009,
+            "PaintKit" : 10021,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
